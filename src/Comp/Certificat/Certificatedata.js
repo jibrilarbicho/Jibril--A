@@ -1,0 +1,66 @@
+const Certficate_data = [
+  {
+    id: 1,
+    category: "CERTIFICATE OF COMPLETION",
+    title: "FROM NEXT ROBOTICS ",
+    image: "./image/NextRob.jpg",
+    desc: "THIS CERTIFICATE IS PROUDLY PRESENTED TO JIBRIL ARBICHO FOR SUCCESSFULLY COMPLETING  A short term training on Introduction To JAVA and GUI for two months from July 2022-September 2022.",
+  },
+  {
+    id: 2,
+    category: "CERTIFICATE OF ACHIEVEMENT",
+    title: "FROM HAWAS PREPARATORY SCHOOL",
+    image: "./image/HPS.jpg",
+    desc: "Student Jibriil Arbichoo was presented with the certificate with great honor as he passed 1st place in 2011 from Grade 11 Community Preparatory School, NS7",
+  },
+  {
+    id: 3,
+    category: "CERTIFICATE OF PARTICIPATION",
+    title: "FROM BURKA SECONDARY SCHOOL ",
+    image: "./image/Burkasci.jpg",
+    desc: "This is to certify that student Jibril Arbicho Mideksa  has well performed in science and technology club in E.C the year of 2009",
+  },
+  {
+    id: 4,
+    category: "CERTIFICATE OF PARTICIPATION",
+    title: "FROM HAWAS PREPARATORY SCHOOL MUSLIM STUDENT JEMEA",
+    image: "./image/HPSMSJ.jpg",
+    desc: "The certificate was presented to you on 12/07/2013 E.C for your great efforts in the charity done by the Muslim students of HPSMSJ.",
+  },
+  {
+    id: 5,
+    category: "CERTIFICATE OF APPRECIATION",
+    title: "FROM HAWAS PREPARATORY SCHOOL MUSLIM STUDENT JEMEA",
+    image: "image/HPSv.jpg",
+    desc: " I REQUEST THIS CERTIFICATE OF THANKS FOR YOUR GREAT EFFORTS TO SAVE THE LIFE OF A PERSON WHO BOTH KIDNEY STOP WORKING ",
+  },
+  {
+    id: 6,
+    category: "CERTIFICATE OF APPRECIATION",
+    title: "FROM ADAMA CENTRAL YOUTH ASSOCIATION ",
+    image: "./image/ACYA.jpg",
+    desc: "For Jibril  Arbicho This certificate is awarded to you for your warm participation in voluntary deeds of Jema'a(Team), and hard working in all aspects of Islamic Students Movements as well as for making a great history",
+  },
+  {
+    id: 7,
+    category: "CERTIFICATE OF PARTICIPATION",
+    title: "FROM BURKA ELEMENTARY SCHOOL",
+    image: "./image/AO.jpg",
+    desc: "For Student Jibril Arbicho .  Burqa Bokku Primary School for your outstanding Participation And Contribution in the Afaan Oromoo   Society during the 2008 E.C Academic Year. this certificate is given to you With thanks. ",
+  },
+  {
+    id: 8,
+    category: "CERTIFICATE OF PARTICIPATION",
+    title: "FROM BURKA ELEMENTARY SCHOOL",
+    image: "./image/farmal.jpg",
+    desc: "For Student Jibril Arbicho .  Burqa Bokku Primary School for your outstanding Participation And Contribution in the Anti-Corruption   Society during the 2008 E.C Academic Year. this certificate is given to you With thanks. ",
+  },
+  {
+    id: 9,
+    category: "CERTIFICATE OF PARTICIPATION",
+    title: "FROM BURKA ELEMENTARY SCHOOL",
+    image: "./image/HIV.jpg",
+    desc: "For Student Jibril Arbicho .  Burqa Bokku Primary School for your outstanding Participation And Contribution in the HIV/AIDS Society during the 2008 E.C Academic Year. this certificate is given to you With thanks. ",
+  },
+];
+export default Certficate_data;

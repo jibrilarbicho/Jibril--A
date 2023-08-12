@@ -1,0 +1,35 @@
+.Contact .left {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Contact .box {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Contact .details h1 {
+  margin: 20px 0 20px 0;
+  font-size: 35px;
+}
+.Contact .details p {
+  font-size: 17px;
+}
+.Contact .button {
+  margin-top: 20px;
+}
+.Contact button {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .left {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
