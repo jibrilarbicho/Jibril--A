@@ -131,11 +131,15 @@ body.active-modal {
 .modal-text button.close-modal i {
   margin: 0;
 }
-/*------------popup--------*/
 @media (max-width: 768px) {
   .modal,
   .overlay {
     overflow: scroll;
+  }
+  .Certificates .box {
+    width: 100%;
+    margin-bottom: 0;
+    position: relative;
   }
 
   .modal .modal-img {
