@@ -56,7 +56,7 @@ export default function Contact() {
                       className="btn_shadow"
                       onClick={() => {
                         window.open(
-                          "https://twitter.com/JArbicho83669",
+                          "https://twitter.com/JArbicho68623",
                           "_blank"
                         );
                       }}
