@@ -20,7 +20,11 @@ export default function Home() {
             </p>
             <div className="hero-btn d-flex">
               <div>
-                <a href="CV.pdf" className="cv" target="_blank">
+                <a
+                  href="JibrilArbichoResume .pdf"
+                  className="cv"
+                  target="_blank"
+                >
                   Download CV
                 </a>
               </div>
@@ -42,7 +46,7 @@ export default function Home() {
                     className="btn-shadow"
                     onClick={() => {
                       window.open(
-                        "https://www.linkedin.com/in/jibril-arbicho-5a6a18267/",
+                        "https://www.linkedin.com/in/jibril-a-299505297/",
                         "_blank"
                       );
                     }}

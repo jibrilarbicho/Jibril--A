@@ -3,7 +3,7 @@ header {
   line-height: 10vh;
 }
 header .container {
-  padding-top: 15px;
+  padding-top: 5px;
 }
 header ul li {
   margin-right: 30px;
@@ -19,7 +19,7 @@ header ul li a:hover {
   color: #ff014f;
 }
 .logo img {
-  height: 84px;
+  height: 64px;
   width: auto;
 }
 .image-text-container {

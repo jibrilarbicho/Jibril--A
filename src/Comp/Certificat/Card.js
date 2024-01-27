@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 export default function Card(props) {
   const [modal, setModal] = useState(false);
+  const list = props.desc;
+  const images = props.image;
 
   const toggleModal = () => {
     setModal(!modal);
@@ -13,10 +15,11 @@ export default function Card(props) {
     document.body.classList.remove("active-modal");
   }
   return (
-    <>
+    <div className="p-6">
       <div className="box btn_shadow ">
         <div className="img">
-          <img src={props.image} alt="" onClick={toggleModal} />
+          <img src={images[0]} alt="" onClick={toggleModal} />
+          <img src={images[1]} alt="" onClick={toggleModal} />
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.category}</span>
@@ -33,13 +36,28 @@ export default function Card(props) {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content d_flex">
-            <div className="modal-img left">
-              <img src={props.image} alt="" />
+            <div className="modal-img left mb-3">
+              <img src={images[0]} alt="im1" />
+              <img src={images[1]} alt="im2" className="mb-3" />{" "}
+              <a
+                href={props.link}
+                className="text-red-400"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source Code
+              </a>
             </div>
             <div className="modal-text right">
-              <span>{props.category}</span>
               <h1>{props.title}</h1>
-              <p>{props.desc}</p>
+              <ul className="circle-list">
+                {list.map((al, index) => (
+                  <li key={index} className="cirle-li">
+                    {" "}
+                    {al}{" "}
+                  </li>
+                ))}
+              </ul>
 
               <button className="close-modal btn_shadow" onClick={toggleModal}>
                 <i className="fas fa-times"></i>
@@ -48,6 +66,6 @@ export default function Card(props) {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

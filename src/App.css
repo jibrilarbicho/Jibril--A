@@ -11,6 +11,10 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ecf0f3;
 }
+.circle-list li {
+  list-style-type: circle;
+  padding-left: 20px; /* Adjust the padding as needed */
+}
 .container {
   max-width: 95%;
   margin: auto;
@@ -94,6 +98,11 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6rem;
 }
 p {
   color: #3c3e41;

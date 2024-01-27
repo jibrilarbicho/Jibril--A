@@ -30,11 +30,11 @@ export default function Header() {
                 <a href="#home">home</a>
               </li>
               <li>
-                <a href="#certificates">Certificates</a>
+                <a href="#projects">Projects</a>
               </li>
 
               <li>
-                <a href="#experience">Experience</a>
+                <a href="#About">About</a>
               </li>
 
               <li>
