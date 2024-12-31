@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="img footer">
             <img src={logo1} alt="" />
           </div>
-          <p>&copy; 2023. All rights reserved by Jibril Arbicho.</p>
+          <p>&copy; 2024. All rights reserved by Jibril Arbicho.</p>
         </div>
       </footer>
     </>

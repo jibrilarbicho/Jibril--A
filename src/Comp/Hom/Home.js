@@ -10,7 +10,7 @@ export default function Home() {
             <h1>
               Hi i'm <span>Jibril Arbicho</span>
             </h1>
-            <p>
+            <p className="mb-10">
               I am a website developer with a fervent passion for creating
               immersive digital experiences. As a software engineer, I am
               engaged in the art of constructing website projects by leveraging
@@ -18,53 +18,11 @@ export default function Home() {
               testament to my resolute commitment to perpetual learning and
               progress within the dynamic realm of web development.
             </p>
-            <div className="hero-btn d-flex">
+            <div className="hero-btn d-flex mt-5">
               <div>
-                <a
-                  href="JibrilArbichoResume .pdf"
-                  className="cv"
-                  target="_blank"
-                >
+                <a href="/JibrilArbichoRes.pdf" className="cv" target="_blank">
                   Download CV
                 </a>
-              </div>
-              <div className="col-1">
-                <h4>Find With Me</h4>
-                <div className="button">
-                  <button
-                    className="btn-shadow"
-                    onClick={() => {
-                      window.open(
-                        "https://www.facebook.com/jibril.arbicho.1/",
-                        "_blank"
-                      );
-                    }}
-                  >
-                    <i className="fab fa-facebook-f"></i>
-                  </button>
-                  <button
-                    className="btn-shadow"
-                    onClick={() => {
-                      window.open(
-                        "https://www.linkedin.com/in/jibril-a-299505297/",
-                        "_blank"
-                      );
-                    }}
-                  >
-                    <i className="fab fa-linkedin-in"></i>
-                  </button>
-                  <button
-                    className="btn-shadow"
-                    onClick={() => {
-                      window.open(
-                        " https://github.com/jibrilarbicho",
-                        "_blank"
-                      );
-                    }}
-                  >
-                    <i className="fab fa-github"></i>
-                  </button>
-                </div>
               </div>
             </div>
           </div>
