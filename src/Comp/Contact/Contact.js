@@ -9,57 +9,101 @@ export default function Contact() {
         <div className="container top">
           <div className="heading text-center">
             <h4>CONTACT</h4>
-            <h1>Contact With Me</h1>
+            <h1>Get in Touch</h1>
           </div>
 
           <div className="content d_flex">
             <div className="left">
-              <div className="box box_shodow ">
+              <div className="box box_shadow">
                 <div className="img">
-                  <img src={me} alt="" />
+                  <img src={me} alt="Jibril Arbicho" />
                 </div>
                 <div className="details">
                   <h1>Jibril Arbicho</h1>
-                  <p>Software Engineering student at Jimma University</p>
+                  <p>Software Engineer | Machine Learning Engineer</p>
                   <p>
-                    I am available for freelance work. Connect with me via and
-                    call in to my account.
-                  </p>{" "}
+                    I am open to freelance opportunities. Feel free to reach out
+                    to discuss your project requirements or collaborations.
+                  </p>
                   <br />
-                  <p>Phone: +251934044223</p>
-                  <p>Email: jibrilarbicho2@gmail.com</p> <br />
-                  <span>FIND WITH ME</span>
+                  <p>
+                    Email:{" "}
+                    <a href="mailto:jibrilarbicho2@gmail.com">
+                      jibrilarbicho2@gmail.com
+                    </a>
+                  </p>
+                  <br />
+                  <span>Connect with Me</span>
                   <div className="button f_flex">
-                    <button className="btn_shadow">
-                      <i
-                        className="fab fa-facebook-f"
-                        onClick={() => {
-                          window.open(
-                            "https://www.facebook.com/jibril.arbicho.1/",
-                            "_blank"
-                          );
-                        }}
-                      ></i>
-                    </button>
+                    {/* LinkedIn */}
                     <button
                       className="btn_shadow"
-                      onClick={() => {
+                      onClick={() =>
                         window.open(
-                          "mailto:jibrilarbicho2@gmail.com",
+                          "https://www.linkedin.com/in/jibril-a-299505297/",
                           "_blank"
-                        );
-                      }}
+                        )
+                      }
                     >
-                      <i class="fas fa-envelope"></i>
+                      <i className="fab fa-linkedin"></i>
                     </button>
+
+                    {/* LeetCode */}
                     <button
                       className="btn_shadow"
-                      onClick={() => {
+                      onClick={() =>
+                        window.open(
+                          "https://leetcode.com/u/jibril_arbicho/",
+                          "_blank"
+                        )
+                      }
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        padding: "5px",
+                        border: "none",
+                        background: "none",
+                        cursor: "pointer",
+                        transition: "background-color 0.3s ease", // Smooth transition for hover effect
+                      }}
+                      onMouseEnter={(e) =>
+                        (e.currentTarget.style.backgroundColor = "#1d4ed8")
+                      }
+                      onMouseLeave={(e) =>
+                        (e.currentTarget.style.backgroundColor = "transparent")
+                      }
+                    >
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+                        alt="LeetCode"
+                        style={{
+                          width: "30px",
+                          height: "30px",
+                          objectFit: "contain",
+                        }}
+                      />
+                    </button>
+
+                    {/* Email */}
+                    <button
+                      className="btn_shadow"
+                      onClick={() =>
+                        window.open("mailto:jibrilarbicho2@gmail.com", "_blank")
+                      }
+                    >
+                      <i className="fas fa-envelope"></i>
+                    </button>
+
+                    {/* Twitter */}
+                    <button
+                      className="btn_shadow"
+                      onClick={() =>
                         window.open(
                           "https://twitter.com/JArbicho68623",
                           "_blank"
-                        );
-                      }}
+                        )
+                      }
                     >
                       <i className="fab fa-twitter"></i>
                     </button>
