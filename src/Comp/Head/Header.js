@@ -34,7 +34,7 @@ export default function Header() {
               </li>
 
               <li>
-                <a href="#About">About</a>
+                <a href="#Skills">Skills</a>
               </li>
 
               <li>
