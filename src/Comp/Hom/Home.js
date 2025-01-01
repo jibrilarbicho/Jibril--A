@@ -11,13 +11,17 @@ export default function Home() {
               Hi i'm <span>Jibril Arbicho</span>
             </h1>
             <p className="mb-10">
-              I am a website developer with a fervent passion for creating
-              immersive digital experiences. As a software engineer, I am
-              engaged in the art of constructing website projects by leveraging
-              both frontend and backend technologies. My portfolio stands as a
-              testament to my resolute commitment to perpetual learning and
-              progress within the dynamic realm of web development.
+              I am a Full-Stack Developer proficient in the MERN stack and
+              Django, with expertise in building immersive digital experiences
+              by integrating both frontend and backend technologies.
+              Additionally, I am a Machine Learning Engineer skilled in
+              frameworks such as PyTorch, TensorFlow, and LangChain,
+              specializing in developing intelligent solutions. My portfolio
+              reflects a deep passion for innovation, perpetual learning, and
+              growth in the dynamic fields of web development and machine
+              learning.
             </p>
+
             <div className="hero-btn d-flex mt-5">
               <div>
                 <a href="/JibrilArbichoRes.pdf" className="cv" target="_blank">
